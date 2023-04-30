@@ -53,7 +53,7 @@ Once you hand your parcel to the transport company, the return package is sent t
 
 Your job will be to create the bidding platform microservice, which will communicate with other backend services to obtain the necessary information and forward it to a UI for customers to bid on.
 
-![Screenshot 2023-04-30 at 22.56.17.png](./img/Screenshot 2023-04-30 at 22.56.17.png)
+![Screenshot 2023-04-30 at 22.56.17.png](./img/Screenshot%202023-04-30%20at%2022.56.17.png)
 
 ## The landscape - Microservices
 
@@ -68,7 +68,7 @@ Glosary:
 - Defect_id: Is a unique identifier for a particular item that is defect (e.g., the iPhone 13 Pro that you bought and gave back because it was scratched on the left corner)
 - Grading: the process of evaluating the condition of a returned item (i.e., Is it good enough to be sold? Should it be destroyed? …)
 
-![Screenshot 2023-04-30 at 23.37.30.png](./img/Screenshot 2023-04-30 at 23.37.30.png)
+![Screenshot 2023-04-30 at 23.37.30.png](./img/Screenshot%202023-04-30%20at%2023.37.30.png)
 
 ### Warehouse
 
@@ -102,8 +102,8 @@ Although cool, in real life the previous scenario is hardly ever the case. It wo
 
 In this challenge, you will construct the item batch to feed to the UI by merging pieces that you will get from the different services.
 
-![Screenshot 2023-05-01 at 00.03.25.png](./img/Screenshot 2023-05-01 at 00.03.25.png)
+![Screenshot 2023-05-01 at 00.03.25.png](./img/Screenshot%202023-05-01%20at%2000.03.25.png)
 
 ## EXTRA CHALLENGE - What comes after
 
-![Screenshot 2023-05-01 at 00.05.14.png](./img/Screenshot 2023-05-01 at 00.05.14.png)
+![Screenshot 2023-05-01 at 00.05.14.png](./img/Screenshot%202023-05-01%20at%2000.05.14.png)

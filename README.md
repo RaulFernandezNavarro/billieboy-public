@@ -40,7 +40,7 @@ docker run -p 8000:8000 raulfernandeznavarro/billieboy-image:1.0.0
 ********************Front-end:********************
 
 ```docker
-docker run -p 8500:8500 billieboy-frontend
+docker run -p 8500:8500 raulfernandeznavarro/billieboy-frontend:1.0.0
 ```
 
 After running them, you should be able to access the microservices’ documentation here → [http://localhost:8000/docs#/](http://localhost:8000/docs#/) . The UI is not yet connected to any service, so it will display some messages that you can ignore for now. You should be able to access the UI here → [http://localhost:8500/](http://localhost:8500/) .
@@ -98,7 +98,7 @@ That’s it! Of course, this is a simplified version, but good job!
 
 ## SECOND CHALLENGE - Obtain the information hard mode
 
-Although cool, in real life the previous scenario is hardly ever the case. It wouldn’t make a lot of sense to just forward some information. This second challenge will show more in depth how microservice architectures really work. The main goal is to collaborate between microservices to provide certain functionality. In our case, we provide a bidding platform, but will have to collaborate with all other 4 services to make this happen.
+Although it would be nice, in real life the previous scenario is hardly ever the case. It wouldn’t make a lot of sense to just forward some information. This second challenge will show more in depth how microservice architectures really work. The main goal is to collaborate between microservices to provide certain functionality. In our case, we provide a bidding platform, but will have to collaborate with all other 4 services to make this happen.
 
 In this challenge, you will construct the item batch to feed to the UI by merging pieces that you will get from the different services.
 

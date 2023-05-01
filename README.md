@@ -120,3 +120,37 @@ The UI is designed in the following manner. It displays an item and its bids, al
 - Display a new item.
 
 ![Screenshot 2023-05-01 at 00.05.14.png](./img/Screenshot%202023-05-01%20at%2000.05.14.png)
+
+some useful definitions:
+
+```python
+class MonetaryValue(BaseModel):
+    def __init__(self, currency: str, value: float):
+        super().__init__(currency=currency, value=value)
+        self.currency = currency
+        self.value = value
+
+    currency: str
+    value: float
+
+
+class Bid(BaseModel):
+    def __init__(self, bidding_party: str, bid_amount: MonetaryValue):
+        super().__init__(bidding_party=bidding_party, bid_amount=bid_amount)
+        self.bidding_party = bidding_party
+        self.bid_amount = bid_amount
+
+    bidding_party: str
+    bid_amount: MonetaryValue
+
+
+class Bids(BaseModel):
+    def __init__(self, unique_id: str, bids: list[Bid]):
+        super().__init__(unique_id=unique_id, bids=bids)
+        self.unique_id = unique_id
+        self.bids = bids
+
+    unique_id: str
+    bids: list[Bid]
+
+```
